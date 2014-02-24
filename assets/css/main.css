@@ -23,5 +23,3 @@ a:hover, a:active, a:focus { padding-left: 1% }
 a:visited { text-decoration: line-through }
 
 a { color: #777777; text-decoration: none; display: block; padding-left: 0; -webkit-transition: padding ease 0.3s; transition: padding ease 0.3s; -moz-transition: padding ease 0.3s; -o-transition: padding ease 0.3s; }
-
-
