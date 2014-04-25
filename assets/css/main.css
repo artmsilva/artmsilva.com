@@ -1,4 +1,4 @@
-body { font-family: "brandon-grotesque-1","brandon-grotesque-2",sans-serif; font-style: normal; font-weight: 400; }
+body { background: #333; color: #f2f2f2; font-size: 220%; font-family: "brandon-grotesque-1","brandon-grotesque-2",sans-serif; font-style: normal; font-weight: 400; line-height: 1; }
 
 .container { max-width: 70%; margin: 6% auto 0; }
 
@@ -22,4 +22,4 @@ a:hover, a:active, a:focus { padding-left: 1% }
 
 a:visited { text-decoration: line-through }
 
-a { color: #777777; text-decoration: none; display: block; padding-left: 0; -webkit-transition: padding ease 0.3s; transition: padding ease 0.3s; -moz-transition: padding ease 0.3s; -o-transition: padding ease 0.3s; }
+a { color: #58AD9C; text-decoration: none; display: block; padding-left: 0; -webkit-transition: padding ease 0.3s; transition: padding ease 0.3s; -moz-transition: padding ease 0.3s; -o-transition: padding ease 0.3s; }
