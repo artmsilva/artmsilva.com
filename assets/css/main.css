@@ -1,4 +1,4 @@
-body { font-family: sans-serif }
+body { font-family: "brandon-grotesque-1","brandon-grotesque-2",sans-serif; font-style: normal; font-weight: 400; }
 
 .container { max-width: 70%; margin: 6% auto 0; }
 
