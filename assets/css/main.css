@@ -18,8 +18,6 @@ div { margin-left: 3%; margin-bottom: 6%; position: relative; }
 	div { margin-bottom: 2% }
 }
 
-a:hover, a:active, a:focus { padding-left: 1% }
+a:hover, a:active, a:focus { padding-left: 1%; border-left: 2em #58AD9C solid; }
 
-a:visited { text-decoration: line-through }
-
-a { color: #58AD9C; text-decoration: none; display: block; padding-left: 0; -webkit-transition: padding ease 0.3s; transition: padding ease 0.3s; -moz-transition: padding ease 0.3s; -o-transition: padding ease 0.3s; }
+a { color: #58AD9C; text-decoration: none; display: block; padding-left: 0; -webkit-transition: all ease 0.3s; transition: all ease 0.3s; -moz-transition: all ease 0.3s; -o-transition: all ease 0.3s; }
