@@ -17,12 +17,6 @@ a {
     text-decoration: none;
     border-bottom: .1em solid;
 }
-a:link {
-    -webkit-transition: color .7s linear;
-    -moz-transition: color .7s linear;
-    -o-transition: color .7s linear;
-    transition: color .7s linear;
-}
 a:hover,
 a:active,
 a:focus {
