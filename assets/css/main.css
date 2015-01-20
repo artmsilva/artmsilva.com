@@ -19,14 +19,11 @@ a {
     border-bottom: .1em solid;
 }
 a:link {
-    color: #818181;
+    color: dodgerBlue;
     -webkit-transition: color .7s linear;
     -moz-transition: color .7s linear;
     -o-transition: color .7s linear;
     transition: color .7s linear;
-}
-a:visited {
-    color: #B43F3F;
 }
 a:hover,
 a:active,
