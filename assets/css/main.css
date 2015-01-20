@@ -1,12 +1,10 @@
 html {
     padding: 2%;
-    background: #555555;
 }
 
 body {
     padding: 4%;
     font-family: sans-serif;
-    background: #eeeeee;
     background-size: contain;
 }
 
@@ -15,11 +13,11 @@ img {
 }
 
 a {
+    color: dodgerBlue;
     text-decoration: none;
     border-bottom: .1em solid;
 }
 a:link {
-    color: dodgerBlue;
     -webkit-transition: color .7s linear;
     -moz-transition: color .7s linear;
     -o-transition: color .7s linear;
