@@ -1,17 +1,10 @@
 html {
     padding: 2%;
 }
-
 body {
     padding: 4%;
     font-family: sans-serif;
-    background-size: contain;
 }
-
-img {
-    width: 24%;
-}
-
 a {
     color: dodgerBlue;
     text-decoration: none;
