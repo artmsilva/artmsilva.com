@@ -1,17 +1,46 @@
 html {
-    padding: 2%;
+	display: table;
+	background: #333;
+	height: 100%;
+	width: 100%;
+	font-family: Menlo, sans-serif;
+	font-size: 80%;
+	line-height: 1.6;
+	box-sizing: border-box;
 }
+
 body {
-    padding: 4%;
-    font-family: sans-serif;
+	display: table-cell;
+	vertical-align: bottom;
+	background: #FDFDFD;
+	padding: 4% 16% 4% 8%;
+	border-radius: 12px;
 }
+
 a {
-    color: dodgerBlue;
-    text-decoration: none;
-    border-bottom: .1em solid;
+	color: darkgoldenrod;
+	text-decoration: none;
+	border-bottom: 1px solid;
+	transition: 0.3s ease-in all;
+	will-change: transform;
 }
-a:hover,
-a:active,
-a:focus {
-    color: #000000;
+
+a:hover {
+	color: rgb(93, 90, 84);
+}
+
+a:active {
+	color: #333;
+}
+
+a:focus, a:visited {
+	color: darkgoldenrod;
+	background: #333;
+	padding: 1% 2%;
+	margin: 0 3% 3% 0;
+	outline: none;
+	float: left;
+	display: flex;
+	border-radius: 6px;
+	border-bottom: 0.5em solid;
 }
