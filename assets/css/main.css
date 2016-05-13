@@ -33,7 +33,7 @@ a:active {
 	color: #333;
 }
 
-a:focus, a:visited {
+a:focus {
 	color: darkgoldenrod;
 	background: #333;
 	padding: 1% 2%;
