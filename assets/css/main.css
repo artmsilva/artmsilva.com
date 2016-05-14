@@ -1,15 +1,17 @@
 html {
 	display: table;
-	background: #333;
 	height: 100%;
 	width: 100%;
-	font-family: Menlo, sans-serif;
+	background: #333;
+	font-family: Menlo,sans-serif;
 	font-size: 80%;
 	line-height: 1.6;
 	box-sizing: border-box;
 }
 
 body {
+	height: 100%;
+	width: 100%;
 	display: table-cell;
 	vertical-align: bottom;
 	background: #FDFDFD;
@@ -26,7 +28,7 @@ a {
 }
 
 a:hover {
-	color: rgb(93, 90, 84);
+	color: rgb(93,90,84);
 }
 
 a:active {
