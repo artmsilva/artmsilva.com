@@ -13,7 +13,7 @@ body {
 	height: 100%;
 	width: 100%;
 	display: table-cell;
-	vertical-align: bottom;
+	vertical-align: middle;
 	background: #FDFDFD;
 	padding: 4% 16% 4% 8%;
 }
