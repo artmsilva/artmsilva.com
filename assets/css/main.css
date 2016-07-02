@@ -27,14 +27,6 @@ a {
 }
 
 a:hover {
-	color: rgb(93,90,84);
-}
-
-a:active {
-	color: #333;
-}
-
-a:focus {
 	color: darkgoldenrod;
 	background: #333;
 	padding: 1% 2%;
@@ -44,4 +36,12 @@ a:focus {
 	display: flex;
 	border-radius: 6px;
 	border-bottom: 0.5em solid;
+}
+
+a:active {
+	color: #333;
+}
+
+a:focus {
+	color: rgb(93,90,84);
 }
