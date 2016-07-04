@@ -26,10 +26,6 @@ a {
     will-change: transform;
 }
 
-a:active {
-    color: #333;
-}
-
-a:focus {
-    color: rgb(93,90,84);
+a:hover {
+    color: hsla(40, 94%, 51%, 0.82);
 }
