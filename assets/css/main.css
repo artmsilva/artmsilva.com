@@ -1,7 +1,7 @@
 html {
 	margin: 0 auto;
 	padding: 10vw 40vw 0 40vw;
-	background: darkslategrey ;
+	background: darkslategrey;
 	color: whitesmoke;
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 }
@@ -14,12 +14,12 @@ html {
 }
 
 body {
-	background: brown ;
+	background: brown;
 	padding: 1vw 5vw 7vw;
 }
 
 a {
-	color: gainsboro ;
+	color: gainsboro;
 	text-decoration: none;
 	padding-bottom: 5px;
 	border-bottom: 1px solid;
@@ -27,4 +27,16 @@ a {
 
 a:hover {
 	color: lightslategray;
+}
+
+
+.content {
+	background: black;
+	display: inline-block;
+	padding: 6vw 16vw 2vw 2vw;
+}
+
+.content > * {
+	background: #333;
+	padding: 1vw;
 }
