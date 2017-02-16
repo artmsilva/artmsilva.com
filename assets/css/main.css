@@ -1,42 +1,28 @@
 html {
-	margin: 0 auto;
-	padding: 10vw 40vw 0 40vw;
-	background: darkslategrey;
-	color: whitesmoke;
-	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-}
-
-@media (max-width: 600px) {
-	html {
-		padding-top:20vw;
-		padding-left: 10vw;
-	}
-}
-
-body {
-	background: brown;
-	padding: 1vw 5vw 7vw;
+    margin: 0 auto;
+    padding: 10vw 40vw 0 40vw;
+    background: darkslategrey url("https://scontent.cdninstagram.com/t51.2885-15/e35/16464769_1853847234868023_108445257049309184_n.jpg");
+    background-size: cover;
+    color: rgba(45, 45, 45, .9);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
 a {
-	color: gainsboro;
-	text-decoration: none;
-	padding-bottom: 5px;
-	border-bottom: 1px solid;
+    color: rgba(25, 25, 25, .9);
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: 1px solid;
 }
 
 a:hover {
-	color: lightslategray;
+    color: lightslategray;
 }
 
-
-.content {
-	background: black;
-	display: inline-block;
-	padding: 6vw 16vw 2vw 2vw;
-}
-
-.content > * {
-	background: #333;
-	padding: 1vw;
+.content>* {
+    background: rgba(150, 150, 150, 0.3);
+    padding: 1vw;
+    margin: 0 0 1em;
+    display: block;
+    width: 100%;
 }
