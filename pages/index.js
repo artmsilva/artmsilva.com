@@ -45,15 +45,6 @@ export default function Home() {
             https://unsplash.com/@artmsilva
           </a>
         </p>
-        <p>
-          <a
-            className="block"
-            title="Download Arturo Silva's Resume (PDF)"
-            href="https://github.com/artmsilva/artmsilva.github.io/raw/master/Resume.pdf"
-          >
-            Resume (PDF)
-          </a>
-        </p>
       </main>
     </React.Fragment>
   );
