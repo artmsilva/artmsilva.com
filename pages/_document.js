@@ -5,6 +5,7 @@ class MyDocument extends Document {
     return (
       <Html className="background document" lang="en">
         <Head>
+          <title>Arturo — Senior Engineer at The Washington Post</title>
           <meta charset="utf-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta
