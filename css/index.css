@@ -1,8 +1,6 @@
 :root {
-  --background-text-color: #0f0f0f;
-  --document-color: rgb(241 230 230 / 90%);
-  --background-image: url(https://images.unsplash.com/photo-1589506356380-33c39d65a6a4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)
-    center top;
+  --background-color: #0f0f0f;
+  --text-color: rgb(241 230 230 / 90%);
 }
 
 * {
@@ -10,20 +8,11 @@
 }
 
 .document {
-  color: var(--document-color);
+  color: var(--text-color);
   font-family: monospace;
   padding: 0 1vw;
 }
 
 .background {
-  background-size: cover;
-  background: var(--background-text-color) var(--background-image);
-  background-repeat: no-repeat;
-}
-
-.block {
-  line-height: 3vh;
-  padding: 1vw;
-  display: inline-block;
-  background: var(--background-text-color);
+  background: var(--background-color);
 }
