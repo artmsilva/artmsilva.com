@@ -6,7 +6,7 @@ export default function Home() {
       <header>
         <h1 className="block">arturo silva.</h1>
         <h2 className="block">
-          senior software engineer @washingtonpost. alum @redventures @bankrate
+          technical architect @washingtonpost. alum @redventures @bankrate
           @lowes.
         </h2>
       </header>
