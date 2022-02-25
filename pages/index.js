@@ -1,8 +1,6 @@
 import Head from "next/head";
 import * as React from "react";
 
-export const config = { unstable_runtimeJS: false };
-
 export default function Home() {
   return (
     <React.Fragment>
