@@ -1,8 +1,14 @@
+import Head from "next/head";
+import * as React from "react";
+
 export const config = { unstable_runtimeJS: false };
 
 export default function Home() {
   return (
     <React.Fragment>
+      <Head>
+        <title>Arturo Silva — Technical Architect at The Washington Post</title>
+      </Head>
       <header>
         <h1 className="block">arturo silva.</h1>
         <h2 className="block">

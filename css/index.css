@@ -1,6 +1,16 @@
 :root {
-  --background-color: #0f0f0f;
-  --text-color: rgb(241 230 230 / 90%);
+  --background-color: #cecece;
+  --text-color: rgba(68, 68, 68, 0.9);
+  color-scheme: light;
+}
+
+/** target dark mode media query */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #0f0f0f;
+    --text-color: rgb(241 230 230 / 90%);
+    color-scheme: dark;
+  }
 }
 
 * {
