@@ -26,11 +26,11 @@ const Photo = ({ photo }) => (
         <Image
           alt={photo.description}
           placeholder="blur"
+          blurDataURL={photo.urls.thumb}
           width={photo.width}
           height={photo.height}
           layout="responsive"
           src={photo.urls.small}
-          blurDataURL={photo.blur_hash}
         />
       </figure>
     </a>
@@ -161,11 +161,11 @@ export async function getStaticProps() {
         id: photo.id,
         width: photo.width,
         height: photo.height,
-        blur_hash: photo.blur_hash,
         description: photo.description,
         color: photo.color,
         urls: {
           small: photo.urls.small,
+          thumb: photo.urls.thumb,
         },
         links: {
           html: photo.links.html,
