@@ -25,8 +25,6 @@ const Photo = ({ photo }) => (
       <figure className="photo-card">
         <Image
           alt={photo.description}
-          placeholder="blur"
-          blurDataURL={photo.urls.thumb}
           width={photo.width}
           height={photo.height}
           layout="responsive"
@@ -165,7 +163,6 @@ export async function getStaticProps() {
         color: photo.color,
         urls: {
           small: photo.urls.small,
-          thumb: photo.urls.thumb,
         },
         links: {
           html: photo.links.html,
