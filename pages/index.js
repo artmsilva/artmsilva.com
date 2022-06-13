@@ -65,9 +65,9 @@ export default function Home({ photos }) {
             <a
               className="block"
               title="Link to Arturo Silva's Twitter Profile"
-              href="https://twitter.com/artmsilva"
+              href="https://twitter.com/artfromclt"
             >
-              https://twitter.com/artmsilva
+              https://twitter.com/artfromclt
             </a>
           </li>
           <li>
