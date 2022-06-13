@@ -83,9 +83,9 @@ export default function Home({ photos }) {
             <a
               className="block"
               title="Link to Arturo Silva's LinkedIn Profile"
-              href="https://www.linkedin.com/in/artmsilva/"
+              href="https://www.linkedin.com/in/artfromclt/"
             >
-              https://www.linkedin.com/in/artmsilva/
+              https://www.linkedin.com/in/artfromclt/
             </a>
           </li>
         </ul>
