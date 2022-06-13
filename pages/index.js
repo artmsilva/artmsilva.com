@@ -2,8 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import * as React from "react";
 
-export const config = { unstable_runtimeJS: false };
-
 const Photo = ({ photo }) => (
   <article key={photo.id}>
     <style jsx>{`
