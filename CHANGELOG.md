@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/artmsilva/personal-website/compare/v1.0.0...v1.0.1) (2022-07-15)
+
+
+### Bug Fixes
+
+* update readme ([d50fd64](https://github.com/artmsilva/personal-website/commit/d50fd64f363eebacffcb1684b8a0ea196685c8d3))
+
 ## 1.0.0 (2022-07-15)
 
 
