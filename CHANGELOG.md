@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/artmsilva/personal-website/compare/v1.0.1...v1.1.0) (2022-07-19)
+
+
+### Features
+
+* add new favicon from my selfie ([9a3071c](https://github.com/artmsilva/personal-website/commit/9a3071c39f89dbe6b5ace5a4180a968dad73531a))
+
 ## [1.0.1](https://github.com/artmsilva/personal-website/compare/v1.0.0...v1.0.1) (2022-07-15)
 
 
