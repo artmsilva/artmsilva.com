@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.2.0](https://github.com/artmsilva/personal-website/compare/v1.1.0...v1.2.0) (2022-07-23)
+
+
+### ✨ Features
+
+* update position ([11d7c21](https://github.com/artmsilva/personal-website/commit/11d7c21f24e888318c2cbff65378cae00efbf5be))
+
+
+### 🏗 Chores
+
+* add more changelog types ([79cc8fd](https://github.com/artmsilva/personal-website/commit/79cc8fd39ac10a9aa0edc81fd4a030a45212a6f4))
+* bump next from 12.1.0 to 12.2.3 ([#33](https://github.com/artmsilva/personal-website/issues/33)) ([cf62562](https://github.com/artmsilva/personal-website/commit/cf62562138f7316efb2b05d157780c30e3df4838))
+* Bump react and react-dom ([#31](https://github.com/artmsilva/personal-website/issues/31)) ([0567670](https://github.com/artmsilva/personal-website/commit/0567670e0cedc8eed974efe6b5c9113498294e47))
+
 ## [1.1.0](https://github.com/artmsilva/personal-website/compare/v1.0.1...v1.1.0) (2022-07-19)
 
 
