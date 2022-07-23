@@ -48,12 +48,12 @@ export default function Home({ photos }) {
   return (
     <React.Fragment>
       <Head>
-        <title>Arturo Silva — Technical Architect at The Washington Post</title>
+        <title>Arturo Silva — Engineering Manager at The Washington Post</title>
       </Head>
       <header>
         <h1 className="block">Arturo Silva</h1>
         <h2 className="block">
-          He/him pronouns. Technical architect &amp; engineering leader at{" "}
+          He/him pronouns. Engineering manager at{" "}
           <a href="https://build.washingtonpost.com">The Washington Post</a>.
           Loves cooking, photography, and traveling.
         </h2>
