@@ -1,0 +1,52 @@
+---
+const { photo } = Astro.props;
+
+import { Image } from '@astrojs/image/components';
+
+const color = photo.color;
+const width = 400;
+const alt = photo.description;
+const title = photo.description;
+const href = photo.links.html;
+const src = photo.urls.small;
+const likes = photo.likes;
+const downloads = photo.statistics.totalDownloads;
+const views = photo.statistics.totalViews;
+---
+
+<article>
+	<a href={href} title={title}>
+		<figure class="photo-card">
+			<Image alt={alt} width={width} src={src} aspectRatio={`${photo.width}:${photo.height}`} quality={100} />
+		</figure>
+	</a>
+	<figcaption class="figcaption">
+		<h3>{title}</h3>
+		<p>
+			<small>{likes} likes</small>,{" "}
+			<small>{downloads} downloads</small>,{" "}
+			<small>{views} views</small>
+		</p>
+	</figcaption>
+</article>
+
+<style define:vars={{ color }}>
+	article {
+		text-align: center;
+	}
+
+	figure {
+		box-sizing: border-box;
+		display: inline-block;
+		background: var(--color);
+		border-radius: 0.5rem;
+		border: 0.5rem solid;
+		border-color: var(--color);
+	}
+
+	img {
+		margin: 0;
+		padding: 0;
+		display: inline-block;
+	}
+</style>
