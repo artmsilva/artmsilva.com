@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.0](https://github.com/artmsilva/personal-website/compare/v1.2.0...v1.3.0) (2022-08-10)
+
+
+### ✨ Features
+
+* rebuild with astro ([4cf001e](https://github.com/artmsilva/personal-website/commit/4cf001e278ef6cdb1609ca9854db5b00bf5349a4))
+
+
+### 🐛 Bug Fixes
+
+* remove next config file ([60b2be9](https://github.com/artmsilva/personal-website/commit/60b2be97cdb945906bebbb72a3873df98465f14d))
+
 ## [1.2.0](https://github.com/artmsilva/personal-website/compare/v1.1.0...v1.2.0) (2022-07-23)
 
 
