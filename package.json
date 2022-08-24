@@ -11,6 +11,6 @@
   },
   "devDependencies": {
     "@astrojs/image": "^0.3.3",
-    "astro": "^1.0.1"
+    "astro": "^1.0.8"
   }
 }
