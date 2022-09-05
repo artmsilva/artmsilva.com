@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.4.0](https://github.com/artmsilva/personal-website/compare/v1.3.0...v1.4.0) (2022-09-05)
+
+
+### ✨ Features
+
+* add github and pcspartspicker links ([d196991](https://github.com/artmsilva/personal-website/commit/d19699195f785ce350b1bcaf78dcfb74459f019b))
+
+
+### 🏗 Chores
+
+* Bump @astrojs/image from 0.3.3 to 0.5.0 ([0e4f530](https://github.com/artmsilva/personal-website/commit/0e4f530e6432dc35c579398a6568a9749fac4c15))
+* Bump astro from 1.0.1 to 1.1.3 ([1967d64](https://github.com/artmsilva/personal-website/commit/1967d643a138b9dfe5710986b94ad38a997274ed))
+* Bump astro from 1.1.3 to 1.1.5 ([c33b9a2](https://github.com/artmsilva/personal-website/commit/c33b9a21903a2258833e79a14cd297f30d359e8c))
+
 ## [1.3.0](https://github.com/artmsilva/personal-website/compare/v1.2.0...v1.3.0) (2022-08-10)
 
 
