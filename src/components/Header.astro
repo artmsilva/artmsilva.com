@@ -1,0 +1,53 @@
+---
+import { Image } from "@astrojs/image/components";
+---
+
+<header>
+  <section>
+    <Image
+      width={150}
+      aspectRatio={"1:1"}
+      src="/android-chrome-512x512.png"
+      alt="Photo of Arturo Silva"
+    />
+  </section>
+  <section class="profile">
+    <h1>Arturo Silva (He/him pronouns).</h1>
+    <h2>
+      Engineering manager at{" "}
+      <a href="https://build.washingtonpost.com">The Washington Post</a>. Loves
+      cooking, photography, and traveling.
+    </h2>
+  </section>
+</header>
+
+<style>
+  :root {
+    --background-header: rgba(22, 0, 0, 0.5);
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  img {
+    border-radius: 50%;
+    background: var(--background-header);
+    padding: 1rem;
+  }
+
+  .profile {
+    background: var(--background-header);
+    padding-inline: 2rem;
+    border-radius: 0.5rem;
+  }
+
+  @media (prefers-color-scheme: light) {
+    :root {
+      --background-header: rgba(255, 255, 255, 0.5);
+    }
+  }
+</style>

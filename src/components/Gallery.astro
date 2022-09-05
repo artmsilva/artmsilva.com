@@ -1,0 +1,45 @@
+---
+import Photo from "../components/Photo.astro";
+import getPhotos from "../lib/getPhotos";
+
+const photos = await getPhotos();
+---
+
+<h2>
+  Photos by{" "}
+  <a
+    href="https://unsplash.com/@artmsilva?utm_source=artmsilva.com&utm_medium=referral"
+    target="_blank"
+    rel="noopener"
+  >
+    Art Silva
+  </a>{" "}
+  on{" "}
+  <a
+    href="https://unsplash.com/?utm_source=artmsilva.com&utm_medium=referral"
+    target="_blank"
+    rel="noopener"
+  >
+    Unsplash
+  </a>
+</h2>
+
+<section>
+  {photos.map((photo: any) => <Photo photo={photo} />)}
+</section>
+
+<style>
+  section {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  section::-webkit-scrollbar {
+    display: none;
+  }
+</style>

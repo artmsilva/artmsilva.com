@@ -1,7 +1,7 @@
 ---
 const { photo } = Astro.props;
 
-import { Image } from '@astrojs/image/components';
+import { Image } from "@astrojs/image/components";
 
 const color = photo.color;
 const width = 400;
@@ -15,38 +15,55 @@ const views = photo.statistics.totalViews;
 ---
 
 <article>
-	<a href={href} title={title}>
-		<figure class="photo-card">
-			<Image alt={alt} width={width} src={src} aspectRatio={`${photo.width}:${photo.height}`} quality={100} />
-		</figure>
-	</a>
-	<figcaption class="figcaption">
-		<h3>{title}</h3>
-		<p>
-			<small>{likes} likes</small>,{" "}
-			<small>{downloads} downloads</small>,{" "}
-			<small>{views} views</small>
-		</p>
-	</figcaption>
+  <a href={href} title={title}>
+    <figure class="photo-card">
+      <Image
+        alt={alt}
+        width={width}
+        src={src}
+        aspectRatio={`${photo.width}:${photo.height}`}
+        quality={100}
+      />
+    </figure>
+  </a>
+  <figcaption class="figcaption">
+    <h3>{title}</h3>
+    <p>
+      <small>{likes} likes</small>,{" "}
+      <small>{downloads} downloads</small>,{" "}
+      <small>{views} views</small>
+    </p>
+  </figcaption>
 </article>
 
 <style define:vars={{ color }}>
-	article {
-		text-align: center;
-	}
+  a {
+    color: var(--color);
+    border-color: transparent;
+  }
+  a:hover {
+    border-color: var(--color);
+  }
 
-	figure {
-		box-sizing: border-box;
-		display: inline-block;
-		background: var(--color);
-		border-radius: 0.5rem;
-		border: 0.5rem solid;
-		border-color: var(--color);
-	}
+  article {
+    text-align: center;
+    margin-right: 1rem;
+  }
 
-	img {
-		margin: 0;
-		padding: 0;
-		display: inline-block;
-	}
+  figure {
+    margin: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: inline-block;
+    background: var(--color);
+    border-radius: 0.5rem;
+    border: 0.5rem solid;
+    border-color: var(--color);
+  }
+
+  img {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
 </style>

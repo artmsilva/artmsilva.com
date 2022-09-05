@@ -1,0 +1,22 @@
+---
+import SocialLink from "./SocialLink.astro";
+
+const links = [
+  { title: "Twitter", href: "https://twitter.com/artfromclt" },
+  { title: "Instagram", href: "https://instagram.com/artfromclt" },
+  { title: "LinkedIn", href: "https://www.linkedin.com/in/artfromclt/" },
+  { title: "GitHub", href: "https://github.com/artmsilva/" },
+  { title: "PCPartsPicker", href: "https://pcpartpicker.com/user/artmsilva/" },
+];
+---
+
+<h2>Here's a list of where you can find me on the internet.</h2>
+<ul>
+  {links.map((link) => <SocialLink {...link} />)}
+</ul>
+
+<style>
+  ul {
+    font-size: 1.2rem;
+  }
+</style>

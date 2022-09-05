@@ -1,29 +1,67 @@
 ---
 export interface Props {
-	title: string;
+  title: string;
 }
 
 const { title } = Astro.props as Props;
 ---
 
 <!DOCTYPE html>
-<html class="background document" lang="en">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <meta
+      name="description"
+      content="Front end engineering leader with 10+ years of experience in building front end solutions for e-commerce websites, web applications, marketing landing pages, and user engagement flows. Passionate about creating beautiful accessible user experiences."
+    />
+    <meta name="robots" content="noodp" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width" />
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-	<meta name="description"
-		content="Front end engineering leader with 10+ years of experience in building front end solutions for e-commerce websites, web applications, marketing landing pages, and user engagement flows. Passionate about creating beautiful accessible user experiences." />
-	<meta name="robots" content="noodp" />
-	<meta name="generator" content={Astro.generator} />
-	<title>{title}</title>
-</head>
+  <body>
+    <main><slot /></main>
+    <style is:global>
+      :root {
+        --background: var(--default-background);
+        --dark-background: linear-gradient(to bottom, #292e49, #536976);
+        --dark-text-color: rgb(241 230 230 / 90%);
+        --default-background: linear-gradient(to top, #4ca1af, #c4e0e5);
+        --default-text-color: rgba(68, 68, 68, 0.9);
+        --text-color: var(--default-text-color);
+        color-scheme: light;
+        transition: all 0.2s ease-in-out;
+      }
 
-<body>
-	<slot />
-</body>
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --text-color: var(--dark-text-color);
+          --background: var(--dark-background);
+          color-scheme: dark;
+        }
+      }
 
+      html {
+        background: var(--background);
+        color: var(--text-color);
+        font-family: monospace;
+        padding: 0 1vw;
+      }
+
+      a {
+        border-bottom: 0.1rem solid currentColor;
+        padding-bottom: 0.1rem;
+        text-decoration: none;
+      }
+
+      a:hover {
+        border-bottom: 0.1rem solid var(--text-color);
+        color: var(--text-color);
+      }
+    </style>
+  </body>
 </html>

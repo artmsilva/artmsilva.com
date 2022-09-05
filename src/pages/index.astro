@@ -1,153 +1,19 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Photo from '../components/Photo.astro';
-
-let photos = [];
-try {
-	const response = await fetch(
-		`https://api.unsplash.com/users/artmsilva/photos?client_id=${import.meta.env.UNSPLASH_ACCESS_KEY}&stats=true`,
-		{
-			method: "GET",
-		}
-	);
-
-	// cache for 1 day
-	response.headers.set("Cache-Control", "public, max-age=86400");
-
-	const data = await response.json();
-
-	photos = data?.map((photo) => {
-		return {
-			id: photo.id,
-			width: photo.width,
-			height: photo.height,
-			description: photo.description,
-			color: photo.color,
-			urls: {
-				small: photo.urls.small,
-			},
-			links: {
-				html: photo.links.html,
-			},
-			likes: photo.likes.toLocaleString(),
-			statistics: {
-				totalDownloads: photo.statistics.downloads.total.toLocaleString(),
-				totalViews: photo.statistics.views.total.toLocaleString(),
-			},
-		};
-	});
-} catch (error) {
-	console.error(error);
-}
-
+import Layout from "../layouts/Layout.astro";
+import Gallery from "../components/Gallery.astro";
+import SocialLinks from "../components/SocialLinks.astro";
+import Header from "../components/Header.astro";
 ---
 
 <Layout title="Arturo Silva — Engineering Manager at The Washington Post">
-	<header>
-		<h1 class="block">Arturo Silva</h1>
-		<h2 class="block">
-			He/him pronouns. Engineering manager at{" "}
-			<a href="https://build.washingtonpost.com">The Washington Post</a>.
-			Loves cooking, photography, and traveling.
-		</h2>
-	</header>
-	<main>
-		<h3>Social links</h3>
-		<ul>
-			<li>
-				<a class="block" title="Link to Arturo Silva's Twitter Profile" href="https://twitter.com/artfromclt">
-					https://twitter.com/artfromclt
-				</a>
-			</li>
-			<li>
-				<a class="block" title="Link to Arturo Silva's Instagram Profile"
-					href="https://instagram.com/artfromclt">
-					https://instagram.com/artfromclt
-				</a>
-			</li>
-			<li>
-				<a class="block" title="Link to Arturo Silva's LinkedIn Profile"
-					href="https://www.linkedin.com/in/artfromclt/">
-					https://www.linkedin.com/in/artfromclt/
-				</a>
-			</li>
-			<li>
-				<a class="block" title="GitHub" href="https://github.com/artmsilva/">https://github.com/artmsilva</a>
-			</li>
-			<li>
-				<a class="block" title="PCPartsPicker" href="https://pcpartpicker.com/user/artmsilva/">https://pcpartpicker.com/user/artmsilva/</a>
-			</li>
-				
-		</ul>
-		<hr />
-		<h3>
-			Photos by{" "}
-			<a href="https://unsplash.com/@artmsilva?utm_source=artmsilva.com&utm_medium=referral" target="_blank"
-				rel="noopener">
-				Art Silva
-			</a>{" "}
-			on{" "}
-			<a href="https://unsplash.com/?utm_source=artmsilva.com&utm_medium=referral" target="_blank" rel="noopener">
-				Unsplash
-			</a>
-		</h3>
-		<section>
-			{photos.map((photo) => (
-			<Photo photo={photo} />
-			))}
-		</section>
-	</main>
+  <Header />
+  <SocialLinks />
+  <hr />
+  <Gallery />
 </Layout>
 
-<style is:global>
-	:root {
-		--background-color: #cecece;
-		--text-color: rgba(68, 68, 68, 0.9);
-		color-scheme: light;
-	}
-
-	/** target dark mode media query */
-	@media (prefers-color-scheme: dark) {
-		:root {
-			--background-color: #0f0f0f;
-			--text-color: rgb(241 230 230 / 90%);
-			color-scheme: dark;
-		}
-	}
-
-	* {
-		color: inherit;
-	}
-
-	.document {
-		color: var(--text-color);
-		font-family: monospace;
-		padding: 0 1vw;
-	}
-
-	.background {
-		background: var(--background-color);
-	}
-
-	hr {
-		margin-block: 2rem;
-	}
-
-	section {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
-		gap: 0.1rem;
-		align-items: center;
-	}
-
-	@media (max-width: 768px) {
-		section {
-			grid-template-columns: 1fr;
-		}
-	}
-
-	ul {
-		margin: 0;
-		padding: 0;
-	}
+<style>
+  hr {
+    margin-block: 2rem;
+  }
 </style>

@@ -1,0 +1,15 @@
+---
+const { ...anchorProps } = Astro.props;
+---
+
+<li>
+  <a {...anchorProps}>
+    {anchorProps.href}
+  </a>
+</li>
+
+<style>
+  li {
+    margin-block-end: 1rem;
+  }
+</style>
