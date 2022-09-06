@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.5.0](https://github.com/artmsilva/personal-website/compare/v1.4.0...v1.5.0) (2022-09-05)
+
+
+### ✨ Features
+
+* new redesign for fall 2022 ([d866cd3](https://github.com/artmsilva/personal-website/commit/d866cd39f6bb0d94b9f710c4fbf45af416ef64f9))
+
+
+### 🐛 Bug Fixes
+
+* remove leftover classes ([4e55326](https://github.com/artmsilva/personal-website/commit/4e553269f92b6710a65306d482d1258604bebfe3))
+
 ## [1.4.0](https://github.com/artmsilva/personal-website/compare/v1.3.0...v1.4.0) (2022-09-05)
 
 
