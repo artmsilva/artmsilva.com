@@ -2,11 +2,36 @@
 import SocialLink from "./SocialLink.astro";
 
 const links = [
-  { title: "Twitter", href: "https://twitter.com/artfromclt" },
-  { title: "Instagram", href: "https://instagram.com/artfromclt" },
-  { title: "LinkedIn", href: "https://www.linkedin.com/in/artfromclt/" },
-  { title: "GitHub", href: "https://github.com/artmsilva/" },
-  { title: "PCPartsPicker", href: "https://pcpartpicker.com/user/artmsilva/" },
+  {
+    title: "Twitter",
+    href: "https://twitter.com/artfromclt",
+    backgroundColor: "#1DA1F2",
+    color: "white",
+  },
+  {
+    title: "Instagram",
+    href: "https://instagram.com/artfromclt",
+    backgroundColor: "#E4405F",
+    color: "white",
+  },
+  {
+    title: "LinkedIn",
+    href: "https://www.linkedin.com/in/artfromclt/",
+    backgroundColor: "#0A66C2",
+    color: "white",
+  },
+  {
+    title: "GitHub",
+    href: "https://github.com/artmsilva/",
+    backgroundColor: "#cdd9e5",
+    color: "black",
+  },
+  {
+    title: "PCPartsPicker",
+    href: "https://pcpartpicker.com/user/artmsilva/",
+    backgroundColor: "hsl(231deg,22%,19%)",
+    color: "white",
+  },
 ];
 ---
 
@@ -18,5 +43,8 @@ const links = [
 <style>
   ul {
     font-size: 1.2rem;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    padding-inline-start: 2rem;
   }
 </style>

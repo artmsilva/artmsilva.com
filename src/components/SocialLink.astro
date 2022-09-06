@@ -1,15 +1,54 @@
 ---
-const { ...anchorProps } = Astro.props;
+const {
+  title,
+  href,
+  backgroundColor: socialBgColor,
+  color: socialColor,
+} = Astro.props;
 ---
 
 <li>
-  <a {...anchorProps}>
-    {anchorProps.href}
+  <a title={title} href={href} target="_blank">
+    {title}
+    <span aria-hidden="true">🔗</span>
   </a>
 </li>
 
-<style>
+<style define:vars={{ socialColor, socialBgColor }}>
   li {
     margin-block-end: 1rem;
+  }
+
+  li::marker {
+    content: "🐦 ";
+  }
+
+  span {
+    font-size: 1rem;
+    position: absolute;
+    bottom: -0.5rem;
+    right: -0.5rem;
+    opacity: 0;
+  }
+
+  a:hover span,
+  a:focus span {
+    opacity: 1;
+  }
+
+  a {
+    position: relative;
+    word-break: break-all;
+    border-bottom-color: var(--socialBgColor);
+    background: var(--socialBgColor);
+    color: var(--socialColor);
+    border-radius: 0.2rem;
+    padding-block: 0.2rem;
+    padding-inline: 0.5rem;
+  }
+
+  a:hover {
+    background: var(--socialColor);
+    color: var(--socialBgColor);
   }
 </style>
