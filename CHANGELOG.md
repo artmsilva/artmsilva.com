@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.1](https://github.com/artmsilva/artmsilva.com/compare/v1.6.0...v1.6.1) (2022-09-10)
+
+
+### 🏗 Chores
+
+* update ci.yml ([4f93e82](https://github.com/artmsilva/artmsilva.com/commit/4f93e82605ccade9c6dcc40fcd6fe09c04b00943))
+
 ## [1.6.0](https://github.com/artmsilva/artmsilva.com/compare/v1.5.0...v1.6.0) (2022-09-10)
 
 
