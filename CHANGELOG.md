@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.6.2](https://github.com/artmsilva/artmsilva.com/compare/v1.6.1...v1.6.2) (2022-09-16)
+
+
+### 🏗 Chores
+
+* Bump astro from 1.1.7 to 1.2.4 ([9f1e068](https://github.com/artmsilva/artmsilva.com/commit/9f1e0681952e3add89306eef47b3869906b88f48))
+* delete ci workflow ([3e60f53](https://github.com/artmsilva/artmsilva.com/commit/3e60f53b4de661f068560d44549296eddb0fec13))
+
 ## [1.6.1](https://github.com/artmsilva/artmsilva.com/compare/v1.6.0...v1.6.1) (2022-09-10)
 
 
