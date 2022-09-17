@@ -1,5 +1,41 @@
 # Changelog
 
+## [1.6.2](https://github.com/artmsilva/artmsilva.com/compare/v1.6.1...v1.6.2) (2022-09-16)
+
+
+### 🏗 Chores
+
+* Bump astro from 1.1.7 to 1.2.4 ([9f1e068](https://github.com/artmsilva/artmsilva.com/commit/9f1e0681952e3add89306eef47b3869906b88f48))
+* delete ci workflow ([3e60f53](https://github.com/artmsilva/artmsilva.com/commit/3e60f53b4de661f068560d44549296eddb0fec13))
+
+## [1.6.1](https://github.com/artmsilva/artmsilva.com/compare/v1.6.0...v1.6.1) (2022-09-10)
+
+
+### 🏗 Chores
+
+* update ci.yml ([4f93e82](https://github.com/artmsilva/artmsilva.com/commit/4f93e82605ccade9c6dcc40fcd6fe09c04b00943))
+
+## [1.6.0](https://github.com/artmsilva/artmsilva.com/compare/v1.5.0...v1.6.0) (2022-09-10)
+
+
+### 🐛 Bug Fixes
+
+* oops background size rule ([9f9dbb7](https://github.com/artmsilva/artmsilva.com/commit/9f9dbb7235019d913d43fb8d301dfcc31457a4b0))
+* sad animation looks funky ([6ff2c83](https://github.com/artmsilva/artmsilva.com/commit/6ff2c8316364910927e87593aa8a228af1fe08b5))
+* support large screen sizes ([e3f7433](https://github.com/artmsilva/artmsilva.com/commit/e3f74335a7d982081984ae1548b5c4b40c36bbc4))
+
+
+### ✨ Features
+
+* add robots.txt ([b734b75](https://github.com/artmsilva/artmsilva.com/commit/b734b754f180d96a493abb1c170d26d2286fa079))
+* more design improvements on fall redesign ([dbf80bc](https://github.com/artmsilva/artmsilva.com/commit/dbf80bc79c69381a55846810ebf76af108379827))
+
+
+### 🏗 Chores
+
+* Bump @astrojs/image from 0.5.0 to 0.7.0 ([f433528](https://github.com/artmsilva/artmsilva.com/commit/f433528d5b15e0c6df29d1849b5c46905862dd18))
+* Bump astro from 1.1.5 to 1.1.7 ([62ef13f](https://github.com/artmsilva/artmsilva.com/commit/62ef13f92c46253d69a2cc1b6075cd636ee72bc3))
+
 ## [1.5.0](https://github.com/artmsilva/personal-website/compare/v1.4.0...v1.5.0) (2022-09-05)
 
 
