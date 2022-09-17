@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.7.0](https://github.com/artmsilva/artmsilva.com/compare/v1.6.2...v1.7.0) (2022-09-17)
+
+
+### 🐛 Bug Fixes
+
+* fix version in label workflow ([f60b20f](https://github.com/artmsilva/artmsilva.com/commit/f60b20f95deab1211c0b46604983aa2dc4a32e98))
+* update event ([dcd9b7d](https://github.com/artmsilva/artmsilva.com/commit/dcd9b7d1c023731dcbb97c4a6b7f3deabefd070a))
+
+
+### ✨ Features
+
+* switch to a different action ([#71](https://github.com/artmsilva/artmsilva.com/issues/71)) ([a63e9b0](https://github.com/artmsilva/artmsilva.com/commit/a63e9b060bd0cb6a131080ccf45247dde2d9d7e7))
+
+
+### 🏗 Chores
+
+* add labels workflow ([3098b95](https://github.com/artmsilva/artmsilva.com/commit/3098b95c33ced0e9ea44b520a44927a790983e7a))
+* update readme ([be5a3f4](https://github.com/artmsilva/artmsilva.com/commit/be5a3f4c02c31b49d24585eb9a634e645587e4f9))
+
 ## [1.6.2](https://github.com/artmsilva/artmsilva.com/compare/v1.6.1...v1.6.2) (2022-09-16)
 
 
