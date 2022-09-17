@@ -1,6 +1,6 @@
 # Personal Website
 
-Using astro v1.0.1
+Using Astro!
 
 ## Releases
 
