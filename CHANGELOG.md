@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.1](https://github.com/artmsilva/artmsilva.com/compare/v1.7.0...v1.7.1) (2022-09-17)
+
+
+### 🏗 Chores
+
+* Bump astro from 1.2.4 to 1.2.6 ([8145e8d](https://github.com/artmsilva/artmsilva.com/commit/8145e8d1bafce2d27c06c0f62aa86e2caed7c10c))
+
 ## [1.7.0](https://github.com/artmsilva/artmsilva.com/compare/v1.6.2...v1.7.0) (2022-09-17)
 
 
