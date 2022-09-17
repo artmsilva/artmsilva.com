@@ -5,5 +5,11 @@ name: conventional-release-labels
 jobs:
   label:
     runs-on: ubuntu-latest
+    name: Lint PR
     steps:
-      - uses: bcoe/conventional-release-labels@v1.3.0
+      - name: Conventional Labeler
+        uses: action-runner/conventional-labeler@2.0.0
+        with:
+          access_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Get the output
+        run: echo "The labels were ${{ steps.label.outputs.labels }}"
