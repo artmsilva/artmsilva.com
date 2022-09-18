@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.0](https://github.com/artmsilva/artmsilva.com/compare/v1.7.1...v1.8.0) (2022-09-18)
+
+
+### ✨ Features
+
+* use avif for fast downloads! ([#74](https://github.com/artmsilva/artmsilva.com/issues/74)) ([2a61efc](https://github.com/artmsilva/artmsilva.com/commit/2a61efcffa037c23440ad67d992da4efa24e37ed))
+
 ## [1.7.1](https://github.com/artmsilva/artmsilva.com/compare/v1.7.0...v1.7.1) (2022-09-17)
 
 
