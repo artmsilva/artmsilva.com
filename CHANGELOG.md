@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.3](https://github.com/artmsilva/artmsilva.com/compare/v1.8.2...v1.8.3) (2022-09-24)
+
+
+### 🐛 Bug Fixes
+
+* add prerelease config to main workflow ([b21b0af](https://github.com/artmsilva/artmsilva.com/commit/b21b0af9b065cbf9c62ed3b8e46d4d2e87147e37))
+
 ## [1.8.2](https://github.com/artmsilva/artmsilva.com/compare/v1.8.1...v1.8.2) (2022-09-24)
 
 
