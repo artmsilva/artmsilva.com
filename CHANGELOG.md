@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.8.1](https://github.com/artmsilva/artmsilva.com/compare/v1.8.0...v1.8.1) (2022-09-24)
+
+
+### 🏗 Chores
+
+* Bump @astrojs/image from 0.7.0 to 0.7.1 ([642f29a](https://github.com/artmsilva/artmsilva.com/commit/642f29a76ef06e13b1e7bfc4b8067226375e3d11))
+* Bump astro from 1.2.6 to 1.3.0 ([64c4820](https://github.com/artmsilva/artmsilva.com/commit/64c4820c48de3cd31eb75e54fc4cc43fc2172325))
+
 ## [1.8.0](https://github.com/artmsilva/artmsilva.com/compare/v1.7.1...v1.8.0) (2022-09-18)
 
 
