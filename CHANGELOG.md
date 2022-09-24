@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.0](https://github.com/artmsilva/artmsilva.com/compare/v1.9.0...v1.10.0) (2022-09-24)
+
+
+### ✨ Features
+
+* add deployment doc note ([32bf769](https://github.com/artmsilva/artmsilva.com/commit/32bf769c9ffe9e8be0964f83c7aa6bd10cf55d85))
+
 ## [1.9.0](https://github.com/artmsilva/artmsilva.com/compare/v1.8.4...v1.9.0) (2022-09-24)
 
 
