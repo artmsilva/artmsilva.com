@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - prod
+      - dev
 name: release-please
 jobs:
   release-please:
@@ -9,5 +9,7 @@ jobs:
     steps:
       - uses: google-github-actions/release-please-action@v3
         with:
+          default-branch: dev
           release-type: node
           changelog-types: '[{"type":"feat","section":"✨ Features","hidden":false},{"type":"fix","section":"🐛 Bug Fixes","hidden":false},{"type":"chore","section":"🏗 Chores","hidden":false}]'
+          prerelease: true
