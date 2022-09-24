@@ -1,5 +1,22 @@
 # Changelog
 
+## [2.0.0](https://github.com/artmsilva/artmsilva.com/compare/v1.8.2...v2.0.0) (2022-09-24)
+
+
+### ⚠ BREAKING CHANGES
+
+* major version
+
+### ✨ Features
+
+* major version ([ec1982d](https://github.com/artmsilva/artmsilva.com/commit/ec1982da0757d61a7e46148d3facaae83923c20f))
+
+
+### 🐛 Bug Fixes
+
+* set alpha version ([c933050](https://github.com/artmsilva/artmsilva.com/commit/c933050e841c52fbd2ff1b9a6b83de666ed9df6a))
+* update readme ([#84](https://github.com/artmsilva/artmsilva.com/issues/84)) ([36c574a](https://github.com/artmsilva/artmsilva.com/commit/36c574a6fd8d64c0080a44619731ab7030efdb30))
+
 ## [1.8.2](https://github.com/artmsilva/artmsilva.com/compare/v1.8.1...v1.8.2) (2022-09-24)
 
 
