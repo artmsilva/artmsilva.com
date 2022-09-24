@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.1](https://github.com/artmsilva/artmsilva.com/compare/v1.10.0...v1.10.1) (2022-09-24)
+
+
+### 🐛 Bug Fixes
+
+* remove prerelease and pull-request option ([2197e93](https://github.com/artmsilva/artmsilva.com/commit/2197e939bedd79789e3d8c5038021f3c4d8af3ae))
+
 ## [1.10.0](https://github.com/artmsilva/artmsilva.com/compare/v1.9.0...v1.10.0) (2022-09-24)
 
 
