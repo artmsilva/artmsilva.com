@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.2](https://github.com/artmsilva/artmsilva.com/compare/v1.8.1...v1.8.2) (2022-09-24)
+
+
+### 🏗 Chores
+
+* add dev branch and prerelease workflow ([cfeda6a](https://github.com/artmsilva/artmsilva.com/commit/cfeda6a90394cf085d9ead7bbd26fc240ac384eb))
+
 ## [1.8.1](https://github.com/artmsilva/artmsilva.com/compare/v1.8.0...v1.8.1) (2022-09-24)
 
 
