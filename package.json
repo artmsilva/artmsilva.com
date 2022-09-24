@@ -1,6 +1,6 @@
 {
   "name": "personal-website",
-  "version": "1.8.3",
+  "version": "1.8.4-alpha",
   "private": true,
   "scripts": {
     "dev": "astro dev",
