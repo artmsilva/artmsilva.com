@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.8.4](https://github.com/artmsilva/artmsilva.com/compare/v1.8.3...v1.8.4) (2022-09-24)
+
+
+### 🐛 Bug Fixes
+
+* add draft options ([0e45c9a](https://github.com/artmsilva/artmsilva.com/commit/0e45c9ac33aa96fb5ba63579f10ea61fdaa885a6))
+* try alpha ([bbedc14](https://github.com/artmsilva/artmsilva.com/commit/bbedc140639ffa6ddc22de48e7bd84c195adf03a))
+
 ## [1.8.3](https://github.com/artmsilva/artmsilva.com/compare/v1.8.2...v1.8.3) (2022-09-24)
 
 
