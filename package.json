@@ -10,7 +10,7 @@
     "astro": "astro"
   },
   "devDependencies": {
-    "@astrojs/image": "^0.7.1",
+    "@astrojs/image": "^0.9.3",
     "astro": "^1.4.4"
   }
 }
