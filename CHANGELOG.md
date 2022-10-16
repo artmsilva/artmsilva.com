@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.10.2](https://github.com/artmsilva/artmsilva.com/compare/v1.10.1...v1.10.2) (2022-10-16)
+
+
+### 🏗 Chores
+
+* Bump @astrojs/image from 0.7.1 to 0.10.0 ([66bde39](https://github.com/artmsilva/artmsilva.com/commit/66bde391328acc292dcaff4ce62be8ec035cdd54))
+* Bump astro from 1.3.0 to 1.4.0 ([8e8a3a7](https://github.com/artmsilva/artmsilva.com/commit/8e8a3a7cfbb55dca214f3302158f9958c1cd7c01))
+* Bump astro from 1.4.0 to 1.4.4 ([4790ba2](https://github.com/artmsilva/artmsilva.com/commit/4790ba232cd9cf2857ab8e0ccb554956b1b1bb3f))
+* Bump astro from 1.4.4 to 1.5.0 ([05974be](https://github.com/artmsilva/artmsilva.com/commit/05974be5fc978ca6f55dbdf86dc68253ab736282))
+
 ## [1.10.1](https://github.com/artmsilva/artmsilva.com/compare/v1.10.0...v1.10.1) (2022-09-24)
 
 
