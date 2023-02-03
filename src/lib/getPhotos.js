@@ -2,16 +2,12 @@ export default async function getPhotos() {
   let photos = [];
   try {
     const response = await fetch(
-      `https://api.unsplash.com/users/artmsilva/photos?client_id=${
-        import.meta.env.UNSPLASH_ACCESS_KEY
+      `https://api.unsplash.com/users/artmsilva/photos?client_id=${import.meta.env.UNSPLASH_ACCESS_KEY
       }&stats=true`,
       {
         method: "GET",
       }
     );
-
-    // cache for 1 day
-    response.headers.set("Cache-Control", "public, max-age=86400");
 
     const data = await response.json();
 
