@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.11.0](https://github.com/artmsilva/artmsilva.com/compare/v1.10.2...v1.11.0) (2023-02-03)
+
+
+### 🏗 Chores
+
+* remove draft mode ([79f8a87](https://github.com/artmsilva/artmsilva.com/commit/79f8a877eddb4af74507972d66ad19578aedee0f))
+
+
+### ✨ Features
+
+* bump astro ([4757708](https://github.com/artmsilva/artmsilva.com/commit/4757708899e49347df76ca67aa6d19ca522a5d16))
+
+
+### 🐛 Bug Fixes
+
+* remove fetch header ([8dd2731](https://github.com/artmsilva/artmsilva.com/commit/8dd2731a22156045e0a9165fb7ab77b563a37f7c))
+
 ## [1.10.2](https://github.com/artmsilva/artmsilva.com/compare/v1.10.1...v1.10.2) (2022-10-16)
 
 
